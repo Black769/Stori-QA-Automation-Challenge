@@ -13,7 +13,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="168324ef-1552-4afc-b5ec-947956361ab7" name="Default Changelist" comment="" />
+    <list default="true" id="168324ef-1552-4afc-b5ec-947956361ab7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/suites.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Driver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/HP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/HP.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +62,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.HP (1)">
+  <component name="RunManager" selected="TestNG.HP.HP">
     <configuration name="HP (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="pruebas" />
       <option name="PACKAGE_NAME" value="test" />
@@ -99,8 +106,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HP.HP" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pruebas" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.HP" />
+      <option name="METHOD_NAME" value="HP" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HP.HP" />
         <item itemvalue="TestNG.HP (1)" />
         <item itemvalue="TestNG.HP (2)" />
         <item itemvalue="TestNG.HP" />
@@ -128,45 +148,64 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1397" height="242" key="GridCell.Tab.0.bottom" timestamp="1624462032474">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state x="93" y="93" width="1255" height="727" key="DiffContextDialog" timestamp="1662594460392">
+      <screen x="0" y="0" width="1440" height="912" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1624462032474" />
-    <state width="1397" height="242" key="GridCell.Tab.0.center" timestamp="1624462032474">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state x="93" y="93" width="1255" height="727" key="DiffContextDialog/0.0.1440.912/2160.0.1920.1032@0.0.1440.912" timestamp="1662594460392" />
+    <state width="1397" height="239" key="GridCell.Tab.0.bottom" timestamp="1662595765419">
+      <screen x="0" y="0" width="1440" height="912" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1624462032474" />
-    <state width="1397" height="242" key="GridCell.Tab.0.left" timestamp="1624462032474">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1397" height="239" key="GridCell.Tab.0.bottom/0.0.1440.912/2160.0.1920.1032@0.0.1440.912" timestamp="1662595765419" />
+    <state width="1397" height="239" key="GridCell.Tab.0.bottom/0.0.1440.912@0.0.1440.912" timestamp="1662557655882" />
+    <state width="1397" height="239" key="GridCell.Tab.0.center" timestamp="1662595765415">
+      <screen x="0" y="0" width="1440" height="912" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1624462032474" />
-    <state width="1397" height="242" key="GridCell.Tab.0.right" timestamp="1624462032474">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1397" height="239" key="GridCell.Tab.0.center/0.0.1440.912/2160.0.1920.1032@0.0.1440.912" timestamp="1662595765415" />
+    <state width="1397" height="239" key="GridCell.Tab.0.center/0.0.1440.912@0.0.1440.912" timestamp="1662557655876" />
+    <state width="1397" height="239" key="GridCell.Tab.0.left" timestamp="1662595765415">
+      <screen x="0" y="0" width="1440" height="912" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1624462032474" />
-    <state x="201" y="35" key="SettingsEditor" timestamp="1624451343383">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1397" height="239" key="GridCell.Tab.0.left/0.0.1440.912/2160.0.1920.1032@0.0.1440.912" timestamp="1662595765415" />
+    <state width="1397" height="239" key="GridCell.Tab.0.left/0.0.1440.912@0.0.1440.912" timestamp="1662557655876" />
+    <state width="1397" height="239" key="GridCell.Tab.0.right" timestamp="1662595765419">
+      <screen x="0" y="0" width="1440" height="912" />
     </state>
-    <state x="201" y="35" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1624451343383" />
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1624453533922">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1397" height="239" key="GridCell.Tab.0.right/0.0.1440.912/2160.0.1920.1032@0.0.1440.912" timestamp="1662595765419" />
+    <state width="1397" height="239" key="GridCell.Tab.0.right/0.0.1440.912@0.0.1440.912" timestamp="1662557655876" />
+    <state width="1397" height="297" key="GridCell.Tab.1.bottom" timestamp="1662588478745">
+      <screen x="0" y="0" width="1440" height="912" />
     </state>
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1624453533922" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/pages/HomePage.java</url>
-          <line>7</line>
-          <properties class="pages.HomePage" method="&lt;init&gt;">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1397" height="297" key="GridCell.Tab.1.bottom/0.0.1440.912/2160.0.1920.1032@0.0.1440.912" timestamp="1662588478745" />
+    <state width="1397" height="297" key="GridCell.Tab.1.center" timestamp="1662588478745">
+      <screen x="0" y="0" width="1440" height="912" />
+    </state>
+    <state width="1397" height="297" key="GridCell.Tab.1.center/0.0.1440.912/2160.0.1920.1032@0.0.1440.912" timestamp="1662588478745" />
+    <state width="1397" height="297" key="GridCell.Tab.1.left" timestamp="1662588478744">
+      <screen x="0" y="0" width="1440" height="912" />
+    </state>
+    <state width="1397" height="297" key="GridCell.Tab.1.left/0.0.1440.912/2160.0.1920.1032@0.0.1440.912" timestamp="1662588478744" />
+    <state width="1397" height="297" key="GridCell.Tab.1.right" timestamp="1662588478745">
+      <screen x="0" y="0" width="1440" height="912" />
+    </state>
+    <state width="1397" height="297" key="GridCell.Tab.1.right/0.0.1440.912/2160.0.1920.1032@0.0.1440.912" timestamp="1662588478745" />
+    <state x="251" y="112" key="Maven.ArtifactSearchDialog" timestamp="1662595531904">
+      <screen x="0" y="0" width="1440" height="912" />
+    </state>
+    <state x="251" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.912/2160.0.1920.1032@0.0.1440.912" timestamp="1662595531904" />
+    <state x="171" y="118" key="new project wizard" timestamp="1662514496494">
+      <screen x="0" y="0" width="1440" height="912" />
+    </state>
+    <state x="171" y="118" key="new project wizard/0.0.1440.912/2160.0.1920.1032@0.0.1440.912" timestamp="1662514496494" />
+    <state x="377" y="209" key="run.anything.popup" timestamp="1662594002807">
+      <screen x="0" y="0" width="1440" height="912" />
+    </state>
+    <state x="377" y="209" key="run.anything.popup/0.0.1440.912/2160.0.1920.1032@0.0.1440.912" timestamp="1662594002807" />
+    <state x="383" y="193" width="672" height="678" key="search.everywhere.popup" timestamp="1662593035404">
+      <screen x="0" y="0" width="1440" height="912" />
+    </state>
+    <state x="383" y="193" width="672" height="678" key="search.everywhere.popup/0.0.1440.912/2160.0.1920.1032@0.0.1440.912" timestamp="1662593035404" />
   </component>
 </project>
